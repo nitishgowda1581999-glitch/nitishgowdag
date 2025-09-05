@@ -1,0 +1,23 @@
+# Average Temperature Calculator
+temperatures = []
+
+for i in range(7):
+    temp = float(input(f"Enter temperature for day {i+1}: "))
+    temperatures.append(temp)
+
+average_temp = sum(temperatures) / len(temperatures)
+print("Temperatures:", temperatures)
+print("Average Temperature of the Week:", average_temp)
+
+Result
+Enter temperature for day 1: 27
+Enter temperature for day 2: 25
+Enter temperature for day 3: 26
+Enter temperature for day 4: 25
+Enter temperature for day 5: 26
+Enter temperature for day 6: 28
+Enter temperature for day 7: 27
+Temperatures: [27.0, 25.0, 26.0, 25.0, 26.0, 28.0, 27.0]
+Average Temperature of the Week: 26.285714285714285
+
+=== Code Execution Successful ===
